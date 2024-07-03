@@ -10,7 +10,7 @@ import hamburger from '../assets/hamburger.png'
 import accordion from '../assets/accordion.png'
 
 const crypto = () => {
-  const [hamburgerOpen, SethamburgerOpen] = useState(false)
+  const [hamburgerOpen, SethamburgerOpen] = useState(true)
   return (
     <div>
              
@@ -38,8 +38,8 @@ const crypto = () => {
                     <a href="" className='mx-5 font-semibold '>View Whitepaper</a>
                 </div>
 
-            <main className='mt-16 smm:mt-12'>
-              <div className='mt-16 smm:mt-4'>
+            <main className='mt-16 smm:mt-6'>
+              <div className='mt-16 smm:mt-2'>
                   <h1 className="text-white text-center text-3xl font-semibold">Welcome to the new era of <br /> CryptoCurrencies</h1>
                   <p className='text-white text-center mt-3 smm:text-sm'>Unlock new investments possibilities with <span className='text-[#254BD3]'>BlueIce</span> and stay<br /> ahead the curve with innovative cryptocurrencies<br /> solutions.</p>
                 </div>
