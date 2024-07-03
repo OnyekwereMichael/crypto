@@ -85,6 +85,7 @@ input[type="radio"] {
     background-color: white;
     font-size: 16px;
     margin: 18px 10px;
+    border-radius: 10px;
   }
   .one a {
     text-decoration: none;
