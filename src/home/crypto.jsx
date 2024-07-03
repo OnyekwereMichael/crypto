@@ -82,7 +82,7 @@ const crypto = () => {
                 </div>
                 
                 <div>
-                   <p className='text-center text-white mt-20 text-xl'>Strategic Partners</p>
+                   <p className='text-center text-white mt-20 text-xl font-semibold '>Strategic Partners</p>
                   <div className='flex items-center justify-center gap-20'>
                       <div className='flex items-center justify-center flex-col mt-7'>
                         <img src={vector} alt="" />
@@ -98,7 +98,7 @@ const crypto = () => {
 
                 <div className='flex items-center justify-around mx-7 mt-20 smm:flex-wrap lgg:flex-wrap'>
                    <img src={illustrator} alt="" />
-                   <div className='text-white smm:mt-4 lgg:mt-4'>
+                   <div className='text-white smm:mt-10 lgg:mt-10'>
                      <h1 className='text-xl font-semibold'>About BlueIce</h1>
                      <p className=' max-w-[450px] text-sm mt-2'>The BlueIcecoin ($BLUEICE) serves as a key component of a blockchain-based project focused on decentralizing thunderbolt shop operations through the Solana network. It provides mechanisms for token rewards, real estate tokenization, and platform governance, offering practical utility for holders in a business-centric ecosystem.</p>
                    </div>
@@ -106,7 +106,7 @@ const crypto = () => {
 
 
                 <div className='flex items-center justify-around mx-7 mt-20 smm:flex-wrap smm:flex-col-reverse smm:mt-16 lgg:flex-wrap  lgg:flex-col-reverse lgg:mt-16'>
-                   <div className='text-white smm:mt-6 lgg:mt-6'>
+                   <div className='text-white smm:mt-10 lgg:mt-10'>
                      <h1 className='text-xl font-semibold smm:text-right lgg:text-right'>Introducing BlueIce</h1>
                      <p className=' max-w-[450px] text-sm mt-2' >Have you always wanted to cut döner BlueIce and earn money with it? Now you have the chance!
                         With VVS ICE Chefs (our official Telegram mini-game) you can cut BlueIce invite friends and stand a chance to get some juicy $BlueIce airdropped!</p>
@@ -116,7 +116,7 @@ const crypto = () => {
                 </div>
 
                 <div className='mt-12 flex items-center justify-center flex-col'>
-                <p className='text-center text-white mt-20 text-xl my-7'>Road Map</p>
+                <p className='text-center text-white mt-20 text-xl my-7 font-semibold'>Road Map</p>
 
               <div className='flex gap-10 smm:flex-wrap lgg:flex-wrap'>
                     <div className='bg-[#1A1A1A] rounded-xl p-4 w-[50%] smm:w-[70%] smm:mx-auto lgg:w-[60%] lgg:mx-auto'>
@@ -142,7 +142,8 @@ const crypto = () => {
                 </div>
 
                  <div className=''>
-               <ul className='accordion my-[60px] mx-auto w-[700px] flex items-center justify-center flex-col lgg:w-[500px] smm:w-[350px] xsmm:w-[300px]'>  
+                  <p className='text-center text-white mt-20 text-xl my-2 font-semibold'>Frequently Asked Questions</p>
+               <ul className='accordion mt-[30px] mx-auto w-[700px] flex items-center justify-center flex-col lgg:w-[500px] smm:w-[350px] xsmm:w-[300px]'>  
 
                    <li className=' w-[100%] m-[20px] p-[10px] rounded-[8px] bg-[#1A1A1A]'>
                      <input type="radio"  name='acordion' id='first' />
@@ -197,7 +198,7 @@ const crypto = () => {
             <p className='font-semibold cursor-pointer hover:underline text-white'>TELEGRAM</p>
         </div>
     </footer>
-    <div className='text-center text-white  py-5 smm:py-2'>©2024 All Rights Reserved $BLUEICE Token</div>
+    <div className='text-center text-white  py-5 smm:py-2 smm:mb-4 xmm:mb-4 xsmm:mb-4'>©2024 All Rights Reserved $BLUEICE Token</div>
             </div>
 
   )
