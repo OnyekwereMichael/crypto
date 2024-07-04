@@ -10,11 +10,11 @@ import hamburger from '../assets/hamburger.png'
 import accordion from '../assets/accordion.png'
 
 const crypto = () => {
-  const [hamburgerOpen, SethamburgerOpen] = useState(true)
+  const [hamburgerOpen, SethamburgerOpen] = useState(false)
   return (
     <div>
              
-                <nav className='my-3 mx-5 flex items-center justify-between bg-[#232339] rounded-full smm:mx-2'>
+                <nav className='my-3  flex items-center justify-between bg-[#232339] rounded-full smm:mx-2'>
                 <img src={token} alt=""/>
 
                 <div className='text-[#FFFFFF] links smm:hidden'>
@@ -32,14 +32,14 @@ const crypto = () => {
 
             {/* toggle naves  */}
 
-            <div className ={`${hamburgerOpen ? 'show-nav' : ''} bg-white mx-3 one flex`}>
+            <div className ={`${hamburgerOpen ? 'show-nav' : ''} one`}>
                     <a href="" className='mx-5 font-semibold '>Home</a>
                     <a href="" className='mx-5 font-semibold '>About Us</a>
                     <a href="" className='mx-5 font-semibold '>View Whitepaper</a>
                 </div>
 
-            <main className='mt-16 smm:mt-6'>
-              <div className='mt-16 smm:mt-2'>
+            <main className='mt-16 smm:mt-10'>
+              <div className='mt-16 smm:mt-4'>
                   <h1 className="text-white text-center text-3xl font-semibold">Welcome to the new era of <br /> CryptoCurrencies</h1>
                   <p className='text-white text-center mt-3 smm:text-sm'>Unlock new investments possibilities with <span className='text-[#254BD3]'>BlueIce</span> and stay<br /> ahead the curve with innovative cryptocurrencies<br /> solutions.</p>
                 </div>
