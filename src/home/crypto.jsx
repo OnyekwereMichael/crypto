@@ -14,7 +14,7 @@ const crypto = () => {
   return (
     <div>
              
-                <nav className='my-3  flex items-center justify-between bg-[#232339] rounded-full smm:mx-2'>
+                <nav className='my-3 mx-3 flex items-center justify-between bg-[#232339] rounded-full smm:mx-2'>
                 <img src={token} alt=""/>
 
                 <div className='text-[#FFFFFF] links smm:hidden'>
